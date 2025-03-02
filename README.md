@@ -4,7 +4,7 @@
 A full-stack travel experience platform built with the **MERN** (MongoDB, Express.js, React.js, Node.js) stack using the **MVC**(Model, View, Controller) architecture. This application allows users to explore, add,edit and delete listing, post and delete reviews and plan their trips seamlessl.  
 
 ## 📸 Screenshots  
- 
+ https://github.com/sakshisirsat12/Wanderlust/blob/8af338495cda8ff4f9de30e00090be530ba41c95/Screenshot%20(89).png
 
 ## ✨ Features  
 ✅ **User authentication** (Register/Login)  
