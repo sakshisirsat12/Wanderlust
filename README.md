@@ -1,7 +1,3 @@
-# Wanderlust
-Here's a well-structured README file for your **Wanderlust** project, following the same format as the one you referenced:  
-
----
 
 # 🏕️ Wanderlust  
 
@@ -58,44 +54,34 @@ CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```
 
-## 🎯 Running the Application  
-
-### Start the backend server  
-```bash
-cd backend
-npm run dev
-```
+## 🎯 Running the Application
 
 ### Start the frontend development server  
-```bash
+bash
 cd frontend
-npm start
-```
+nodemon app.js
 
-The application will be available at **[http://localhost:3000](http://localhost:3000)**.  
+The application will be available at **[http://localhost:8080/listings]**.  
 
 ## 📂 Project Structure  
-```
-wanderlust/
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── utils/
-│   └── server.js
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── context/
-│   │   ├── utils/
-│   │   └── App.js
-│   └── package.json
-└── README.md
-```
+Wanderlust/
+├── controllers/
+├── init/
+├── MODELS/
+├── node_modules/
+├── public/
+├── routes/
+├── utils/
+├── views/
+├── .env
+├── .gitignore
+├── app.js
+├── cloudConfig.js
+├── middleware.js
+├── package.json
+├── package-lock.json
+├── README.md
+├── schema.js
 
 ## 📡 API Endpoints  
 
@@ -125,12 +111,11 @@ wanderlust/
 - **Cloudinary (for image uploads)**  
 - **dotenv**  
 
-### **Frontend**  
-- **React.js**  
+### **Frontend**   
 - **React Router**  
 - **Context API**  
 - **Axios**  
-- **TailwindCSS** (or any other styling framework)  
+- **BootstrapCSS** 
 
 ## 🤝 Contributing  
 
@@ -146,12 +131,11 @@ This project is licensed under the **MIT License** - see the `LICENSE` file for 
 ## 🙌 Acknowledgments  
 - MongoDB Documentation  
 - Express.js Documentation  
-- React Documentation  
+- Bootstrap Documentation  
 - Node.js Documentation  
 
 ## 📞 Support  
 For support, open an **issue** in this repository.  
 
----
 
-This README is well-structured and follows the standard format for full-stack MERN applications with MVC architecture. Let me know if you want any modifications!
+
